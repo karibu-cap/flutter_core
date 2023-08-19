@@ -1,0 +1,52 @@
+name: karibu_core_utils
+description: Core utility classes for all apps.
+version: 0.0.1
+homepage:
+publish_to: none
+
+environment:
+  sdk: ^2.16.2
+
+dependencies:
+  # Provides internationalization and localization facilities, including message translation,
+  # plurals and genders, date/number formatting and parsing, and bidirectional text.
+  flutter: 
+    sdk: flutter
+
+  #Provides internationalization and localization facilities, including message translation,
+  # plurals and genders, date/number formatting and parsing, and bidirectional text.
+  intl: ^0.17.0
+
+  # Wrapper around InheritedWidget, useful for passing states
+  # down the widget tree.
+  provider: ^6.0.0
+
+  # A composable, Future-based library for making HTTP requests.
+  http: 0.13.5
+    
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Standard package for unit tests in Dart.
+  test: ^1.16.5
+
+  # APIs and utilities for UI testing via screenshots diffing.
+  golden_toolkit: ^0.10.0
+
+  # Static analysis tool that also collects various useful metrics.
+  dart_code_metrics: ^4.9.1
+
+  karibu_core_static_analysis:
+    path: ../static_analysis
+
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/icons/

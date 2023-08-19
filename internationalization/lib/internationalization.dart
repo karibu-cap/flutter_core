@@ -1,0 +1,1 @@
+export 'src/localized_string.dart';
