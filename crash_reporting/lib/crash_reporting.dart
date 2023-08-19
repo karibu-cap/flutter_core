@@ -1,0 +1,1 @@
+export 'src/crash_reporting.dart';
