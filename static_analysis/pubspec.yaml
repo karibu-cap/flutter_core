@@ -1,11 +1,11 @@
 name: karibu_capital_core_static_analysis
-description: Karibu static analysis package.
+description: Karibu capital static analysis package.
 version: 0.0.1
 homepage:
 
 environment:
-  sdk: "2.18.6"
-  flutter: "3.3.10"
+  sdk: "3.0.6"
+  flutter: "3.10.6"
 
 dependencies:
   # Static analysis tool that also collects various useful metrics.
