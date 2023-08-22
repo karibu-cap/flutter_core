@@ -1,21 +1,21 @@
-name: karibu_capital_core_utils
-description: Core utility classes for all apps.
+name: karibu_capital core_utils
+description: Karibu Capital core utility classes for all apps.
 version: 0.0.1
 homepage:
 publish_to: none
 
 environment:
-  sdk: ^2.16.2
+  sdk: "3.0.6"
 
 dependencies:
   # Provides internationalization and localization facilities, including message translation,
   # plurals and genders, date/number formatting and parsing, and bidirectional text.
-  flutter: 
+  flutter:
     sdk: flutter
 
   #Provides internationalization and localization facilities, including message translation,
   # plurals and genders, date/number formatting and parsing, and bidirectional text.
-  intl: ^0.17.0
+  intl: ^0.18.0
 
   # Wrapper around InheritedWidget, useful for passing states
   # down the widget tree.
@@ -23,7 +23,7 @@ dependencies:
 
   # A composable, Future-based library for making HTTP requests.
   http: 0.13.5
-    
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -35,13 +35,12 @@ dev_dependencies:
   golden_toolkit: ^0.10.0
 
   # Static analysis tool that also collects various useful metrics.
-  dart_code_metrics: ^4.9.1
+  dart_code_metrics: ^4.19.2
 
-  karibu_core_static_analysis:
+  karibu_capital_core_static_analysis:
     path: ../static_analysis
 
 flutter:
-
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
