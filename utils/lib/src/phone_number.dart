@@ -1,5 +1,3 @@
-import 'package:karibu_core_utils/utils.dart';
-
 /// The type of number.
 enum TypeOfNumber {
   /// The orange service.
