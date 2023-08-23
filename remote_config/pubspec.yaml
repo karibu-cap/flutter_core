@@ -24,7 +24,7 @@ dev_dependencies:
 
   # Common static analysis options.
   karibu_capital_core_static_analysis:
-    path: ../../core/static_analysis
+    path: ../static_analysis
 
   # Static analysis tool that also collects various useful metrics.
   dart_code_metrics: ^4.19.2
