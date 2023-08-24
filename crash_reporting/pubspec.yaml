@@ -1,7 +1,7 @@
 name: karibu_capital_core_crash_reporting
 description: Karibu capital crash reporting package.
 version: 0.0.1
-homepage:
+homepage: none
 
 environment:
   sdk: "3.0.6"

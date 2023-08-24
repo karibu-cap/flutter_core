@@ -1,7 +1,7 @@
 name: karibu_capital_core_internationalization
 description: Core utility classes for internationalize apps.
 version: 0.0.1
-homepage:
+homepage: none
 
 environment:
    sdk: "3.0.6"
