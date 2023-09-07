@@ -1,0 +1,21 @@
+name: karibu_capital_core_cloud_messaging
+description: Karibu Capital messaging package
+version: 0.0.1
+homepage: none
+
+environment:
+  sdk: "3.0.6"
+  flutter: "3.10.6"
+
+dependencies:
+  # Flutter plugin for Firebase Cloud messaging, enabling sending and receiving notification
+  # messages.
+  firebase_messaging: ^14.6.7
+
+dev_dependencies:
+  # Common static analysis options.
+  karibu_capital_core_static_analysis:
+    path: ../static_analysis
+
+  # Static analysis tool that also collects various useful metrics.
+  dart_code_metrics: ^4.19.2
