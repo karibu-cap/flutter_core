@@ -10,7 +10,7 @@ environment:
 dependencies:
   # Flutter plugin for Firebase Cloud messaging, enabling sending and receiving notification
   # messages.
-  firebase_messaging: ^14.6.7
+  firebase_messaging: ^14.6.0
 
 dev_dependencies:
   # Common static analysis options.
