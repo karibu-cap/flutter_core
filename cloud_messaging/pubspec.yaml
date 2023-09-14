@@ -4,13 +4,12 @@ version: 0.0.1
 homepage: none
 
 environment:
-  sdk: "3.0.6"
-  flutter: "3.10.6"
+  sdk: ^2.16.2
 
 dependencies:
   # Flutter plugin for Firebase Cloud messaging, enabling sending and receiving notification
   # messages.
-  firebase_messaging: ^14.6.7
+  firebase_messaging: ^14.2.1
 
 dev_dependencies:
   # Common static analysis options.
