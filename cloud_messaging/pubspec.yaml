@@ -11,7 +11,7 @@ dependencies:
   # Flutter plugin for Firebase Cloud messaging, enabling sending and receiving notification
   # messages.
   firebase_messaging: ^11.4.3
-
+  
 dev_dependencies:
   # Common static analysis options.
   karibu_capital_core_static_analysis:
