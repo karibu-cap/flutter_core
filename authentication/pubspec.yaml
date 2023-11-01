@@ -1,0 +1,22 @@
+name: karibu_capital_core_authentication
+description: Karibu capital authentication package.
+version: 0.0.1
+homepage: none
+
+environment:
+  sdk: "3.0.6"
+  flutter: "3.10.6"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Static analysis tool that also collects various useful metrics.
+  dart_code_metrics: ^4.9.1
+
+  karibu_capital_core_static_analysis:
+  path: ../static_analysis
