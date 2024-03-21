@@ -35,7 +35,7 @@ dev_dependencies:
   golden_toolkit: ^0.10.0
 
   # Static analysis tool that also collects various useful metrics.
-    dart_code_linter:
+  dart_code_linter:
     git:
       url: https://github.com/karibu-cap/dart-code-linter.git
       ref: f687f9984d4cff5786aa0173465ba772d8384bea
