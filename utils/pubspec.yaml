@@ -5,7 +5,8 @@ homepage: none
 publish_to: none
 
 environment:
-  sdk: "3.0.6"
+  sdk: ^3.3.1
+  flutter: ^3.19.3
 
 dependencies:
   # Provides internationalization and localization facilities, including message translation,
@@ -17,25 +18,15 @@ dependencies:
   # plurals and genders, date/number formatting and parsing, and bidirectional text.
   intl: ^0.18.0
 
-  # Wrapper around InheritedWidget, useful for passing states
-  # down the widget tree.
-  provider: ^6.0.0
-
   # A composable, Future-based library for making HTTP requests.
   http: ^1.1.0
 
 dev_dependencies:
   flutter_test:
-    sdk: flutter
-
-  # Standard package for unit tests in Dart.
-  test: ^1.16.5
-
-  # APIs and utilities for UI testing via screenshots diffing.
-  golden_toolkit: ^0.10.0
+    sdk: flutters
 
   # Static analysis tool that also collects various useful metrics.
-    dart_code_linter:
+  dart_code_linter:
     git:
       url: https://github.com/karibu-cap/dart-code-linter.git
       ref: f687f9984d4cff5786aa0173465ba772d8384bea
