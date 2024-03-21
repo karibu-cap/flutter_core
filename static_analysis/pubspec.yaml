@@ -5,6 +5,7 @@ homepage:
 
 environment:
   sdk: ^3.3.1
+  flutter: ^3.19.3
 
 dependencies:
   # Static analysis tool that also collects various useful metrics.
