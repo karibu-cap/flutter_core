@@ -1,0 +1,40 @@
+name: karibu_capital_core_database
+description: Karibu capital database package.
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: ^3.3.1
+  flutter: ^3.19.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Flutter plugin for Cloud Firestore, a cloud-hosted, noSQL database
+  # with live synchronization and offline support on Android and iOS.
+  cloud_firestore: ^4.15.9
+
+  # Flutter plugin for Firebase Cloud Storage, a powerful, simple,
+  # and cost-effective object storage service for Android and iOS.
+  firebase_storage: ^11.6.10
+
+  # Package for logging debug and error messages.
+  logging: ^1.0.1
+
+  # Package for cross plateform file library (XFile).
+  cross_file: ^0.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Common static analysis options.
+  karibu_capital_core_static_analysis:
+    path: ../static_analysis
+
+  # Static analysis tool that also collects various useful metrics.
+  dart_code_linter:
+    git:
+      url: https://github.com/karibu-cap/dart-code-linter.git
+      ref: f687f9984d4cff5786aa0173465ba772d8384bea
